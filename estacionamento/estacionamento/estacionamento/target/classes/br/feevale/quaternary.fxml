@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="br.feevale.QuaternaryController"
+           prefWidth="600" prefHeight="400"
+           style="-fx-background-color: linear-gradient(to bottom, #2E7D32, #43A047);">
+
+    <VBox alignment="CENTER" spacing="15">
+
+        <Label text="Pagamento realizado com sucesso"
+               style="-fx-font-size: 40px; -fx-text-fill: white; -fx-font-weight: bold;"
+               wrapText="true"
+               textAlignment="CENTER"/>
+
+        <Label text="Volte sempre!"
+               style="-fx-font-size: 22px; -fx-text-fill: #E8F5E9; -fx-font-weight: normal;"
+               wrapText="true"
+               textAlignment="CENTER"/>
+
+    </VBox>
+
+</StackPane>
